@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plan Agéntico · $8.425.000 COP | E-commerce + Agente de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/plan-agentico.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <a href="../index.html#planes" class="back-link">← Volver a la propuesta</a>
+        <div class="tier-badge">
+          <span class="crown">✦</span>
+          Plan Agéntico · E-commerce + Agente de IA
+        </div>
+        <h1>Atiende, cotiza<br><span class="gold-grad">y agenda sola</span><br>a toda hora.</h1>
+        <p class="lead">Todo lo del Plan Élite —animación 3D, pasarela con webhook, dashboard a medida y portales por sede— más un agente de IA que conversa, cotiza con el stock real, agenda citas en el taller, analiza fotos de repuestos y entrega la conversación a un asesor por WhatsApp.</p>
+        <div class="price-hero">
+          <span class="cur">$</span>
+          <span class="num">8.425.000</span>
+          <span class="note">COP · Élite $5.000.000 + IA <s class="price-was">$5.900.000</s> $3.425.000<br>1 sede · + $1.000.000 por sede adicional</span>
+        </div>
+        <div class="pilot-note">
+          <span class="pilot-badge">−25% a −35% + $1M</span>
+          <div>Este primer cliente entra como <strong>plan piloto de integración</strong>: el módulo de IA lleva la escalera piloto (<strong>−25% a −35%</strong>) y además <strong>$1.000.000</strong> por integrarlo al plan. Con el Piloto A se cobra a <strong>$3.425.000</strong> en lugar de su valor real de $5.900.000. El mantenimiento mensual no cambia.</div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow-ring"></div>
+        <div class="chat-mock" id="agentChat">
+          <div class="chat-head">
+            <span class="chat-avatar">IA</span>
+            <div class="chat-id">
+              <strong>Asistente Motos Occidente</strong>
+              <small><span class="live-dot"></span>En línea · responde en segundos</small>
+            </div>
+          </div>
+          <div class="chat-body">
+            <div class="bubble in">Hola 👋 ¿Buscas un repuesto o quieres agendar servicio? Dime marca y modelo.</div>
+            <div class="bubble out">Tengo una Boxer CT 100, necesito kit de arrastre</div>
+            <div class="bubble in">Lo tengo en Pereira ✅ $95.000 · 6 unidades disponibles. ¿Te lo reservo o te agendo la instalación?</div>
+            <div class="bubble out">Agenda la instalación para el sábado</div>
+            <div class="bubble in">Listo: sábado 9:00 a.m., sede Pereira. Te confirmo por WhatsApp 📲</div>
+          </div>
+          <div class="chat-tools">
+            <span>🛒 Catálogo</span><span>📦 Stock</span><span>📅 Agenda</span><span>📷 Visión</span>
+          </div>
+        </div>
+        <div class="payment-signals">
+          <div class="signal"></div>
+          <div class="signal"></div>
+          <div class="signal"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-ind">
+      <span>Descubre el proceso</span>
+      <div class="arrow"></div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= DESCUENTO PILOTO ================= -->
+<section id="piloto">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Descuento piloto</span>
+      <h2>Dos descuentos reales sobre el módulo de IA</h2>
+      <p>No es un precio de lista rebajado: es un descuento real que aplicamos porque este es el primer cliente donde integramos el agente completo. Nos sirve para validarlo en producción y a ti para entrar con menos riesgo.</p>
+    </div>
+
+    <div class="pilot-math">
+      <div class="pm-item">
+        <span>Valor real del módulo</span>
+        <b class="pm-was">$5.900.000</b>
+      </div>
+      <div class="pm-arrow" aria-hidden="true">→</div>
+      <div class="pm-item">
+        <span>Piloto A · −25%</span>
+        <b class="pm-minus">−$1.475.000</b>
+      </div>
+      <div class="pm-arrow" aria-hidden="true">→</div>
+      <div class="pm-item">
+        <span>Por integrarlo al plan</span>
+        <b class="pm-minus">−$1.000.000</b>
+      </div>
+      <div class="pm-arrow" aria-hidden="true">→</div>
+      <div class="pm-item is-total">
+        <span>Módulo con Piloto A</span>
+        <b>$3.425.000</b>
+      </div>
+    </div>
+
+    <div class="pilot-options">
+      <article class="po-row is-on">
+        <div class="po-head">
+          <span class="po-tag">Piloto A · −25%</span>
+          <b>$3.425.000</b>
+        </div>
+        <ul>
+          <li>Contrato firmado dentro de los 15 días de la propuesta</li>
+          <li>Caso de estudio con métricas publicables (sin datos sensibles)</li>
+          <li>3 sesiones de ajuste de prompts con conversaciones reales</li>
+          <li>Garantía de 90 días sobre el módulo</li>
+        </ul>
+      </article>
+
+      <article class="po-row">
+        <div class="po-head">
+          <span class="po-tag">Piloto B · −30%</span>
+          <b>$3.130.000</b>
+        </div>
+        <ul>
+          <li>Todo lo del Piloto A</li>
+          <li>Pago 40% al inicio, 30% en la revisión de mitad del proyecto y 30% contra entrega</li>
+          <li>Sin condicionar el mantenimiento mensual</li>
+        </ul>
+      </article>
+
+      <article class="po-row">
+        <div class="po-head">
+          <span class="po-tag">Piloto C · −35%</span>
+          <b>$2.835.000</b>
+        </div>
+        <ul>
+          <li>Todo lo del Piloto B</li>
+          <li>Pago 50% al inicio y 50% contra entrega</li>
+          <li>Calendario de insumos y validaciones en 48 h</li>
+          <li>Si el calendario se incumple, el descuento vuelve a −25%</li>
+        </ul>
+      </article>
+    </div>
+
+    <p class="pilot-foot">Los tres precios ya incluyen el <strong>$1.000.000</strong> por integrar la IA al plan, aplicado una sola vez a esta primera implementación. Con 2 sedes (Pereira + Armenia) el Plan Agéntico completo con Piloto A queda en <strong>$9.425.000</strong>.</p>
+
+    <div class="pilot-why">
+      <div class="pw-card">
+        <h3>Qué significa "plan piloto"</h3>
+        <p>Es la primera implementación del agente en una operación real de motos y repuestos. A cambio del descuento pedimos acompañamiento: medimos cómo responde, ajustamos los prompts con conversaciones reales durante los primeros 3 meses y te compartimos esas métricas cada mes.</p>
+      </div>
+      <div class="pw-card">
+        <h3>Qué no cambia</h3>
+        <p>El alcance es exactamente el mismo: chatbot 24/7, citas, cotización con stock real, visión artificial y traspaso a WhatsApp. Tampoco cambia el mantenimiento: $550.000/mes con el consumo de IA incluido. Los descuentos aplican una sola vez, a esta primera implementación.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUÉ HACE EL AGENTE ================= -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">El agente</span>
+      <h2>Cinco tareas de atención y un panel de control</h2>
+      <p>El agente no es un menú de botones: entiende la pregunta, consulta datos reales de la tienda y ejecuta acciones. Cada capacidad es una herramienta conectada al backend que ya existe.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-card">
+        <div class="process-icon">💬</div>
+        <h3>Conversa y vende 24/7</h3>
+        <p>Responde por texto sobre el catálogo real: compatibilidad, precio, garantía y disponibilidad. La búsqueda semántica se hace sobre los productos cargados en la base de datos, así que cuando cambias un precio el agente lo sabe al instante.</p>
+        <div class="mini-vis"><div class="flow-dots"><span></span><span></span><span></span></div></div>
+      </div>
+      <div class="process-card">
+        <div class="process-icon">📅</div>
+        <h3>Agenda citas en el taller</h3>
+        <p>Consulta los cupos libres, propone horarios, crea la cita y confirma por WhatsApp. También reprograma y cancela sin intervención humana, respetando la capacidad real de cada sede.</p>
+        <div class="mini-vis"><div class="cal-mini"><span></span><span></span><span class="on"></span><span></span><span></span><span class="on"></span><span></span></div></div>
+      </div>
+      <div class="process-card">
+        <div class="process-icon">🧾</div>
+        <h3>Cotiza con el stock real</h3>
+        <p>Cuando el cliente pide "cuánto me sale", el agente consulta inventario por sede, arma la cotización con disponibilidad y tiempos de entrega, y la deja lista para pagar o para que un asesor la cierre.</p>
+        <div class="mini-vis"><div class="quote-mini"><span class="bar"></span><span class="bar"></span><span class="bar short"></span></div></div>
+      </div>
+      <div class="process-card">
+        <div class="process-icon">📷</div>
+        <h3>Analiza imágenes</h3>
+        <p>El cliente envía una foto de la pieza, la llanta o el tablero. El modelo de visión identifica el componente y propone referencias compatibles del catálogo. Si la confianza es baja, escala a un asesor con la imagen y el contexto.</p>
+        <div class="mini-vis"><div class="scan-mini"><span class="line"></span></div></div>
+      </div>
+      <div class="process-card">
+        <div class="process-icon">📲</div>
+        <h3>Entrega a WhatsApp</h3>
+        <p>Si la conversación necesita a una persona, el agente hace el traspaso a un asesor de la sede correspondiente con todo el historial: producto consultado, cotización, cita propuesta y datos del cliente. Nada se repite.</p>
+        <div class="mini-vis"><div class="wa-ring"></div></div>
+      </div>
+      <div class="process-card">
+        <div class="process-icon">📊</div>
+        <h3>Mide su propio trabajo</h3>
+        <p>Panel con conversaciones, consultas sin respuesta, cotizaciones enviadas, citas agendadas y tasa de traspaso a humano. Es la materia prima para ajustar los prompts cada mes.</p>
+        <div class="mini-vis">
+          <div class="dash-bars"><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ARQUITECTURA ================= -->
+<section style="background:linear-gradient(to bottom,transparent,rgba(34,211,238,.05),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Cómo funciona</span>
+      <h2>El agente orquesta, el backend decide</h2>
+      <p>El modelo de lenguaje nunca inventa precios ni stock: cada dato viene de una función del backend. Si una herramienta falla, el agente deriva a un asesor en lugar de improvisar.</p>
+    </div>
+
+    <div class="flow-grid">
+      <div class="flow-step">
+        <span class="flow-n">01</span>
+        <h4>Canal</h4>
+        <p>Widget en la tienda, WhatsApp o Instagram. Un solo agente, el mismo contexto.</p>
+      </div>
+      <div class="flow-step">
+        <span class="flow-n">02</span>
+        <h4>Agente</h4>
+        <p>Interpreta la intención, mantiene memoria de la conversación y decide qué herramienta usar.</p>
+      </div>
+      <div class="flow-step">
+        <span class="flow-n">03</span>
+        <h4>Herramientas</h4>
+        <p>Catálogo, stock por sede, agenda del taller, cotizador y registro de leads.</p>
+      </div>
+      <div class="flow-step">
+        <span class="flow-n">04</span>
+        <h4>Salida</h4>
+        <p>Cotización, cita confirmada o traspaso a un asesor con el historial completo.</p>
+      </div>
+    </div>
+
+    <div class="cap-title">Capa de IA · lo que se construye</div>
+    <div class="cap-grid">
+      <div class="cap-card">
+        <h4>Agente conversacional</h4>
+        <ul>
+          <li>Búsqueda semántica sobre el catálogo (pgvector)</li>
+          <li>Memoria por cliente y por conversación</li>
+          <li>Instrucciones de marca y tono por sede</li>
+        </ul>
+      </div>
+      <div class="cap-card">
+        <h4>Acciones sobre el negocio</h4>
+        <ul>
+          <li>Cotización con stock real por sede</li>
+          <li>Creación, cambio y cancelación de citas</li>
+          <li>Registro de leads y handoff a asesor</li>
+        </ul>
+      </div>
+      <div class="cap-card">
+        <h4>Visión artificial</h4>
+        <ul>
+          <li>Identificación de repuesto desde foto</li>
+          <li>Comparación contra el catálogo</li>
+          <li>Escalado a humano si la confianza es baja</li>
+        </ul>
+      </div>
+      <div class="cap-card">
+        <h4>Control y calidad</h4>
+        <ul>
+          <li>Registro de conversaciones y auditoría de respuestas</li>
+          <li>Alertas de consultas que el agente no logró resolver</li>
+          <li>Guardrails: no inventa precios ni stock</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIMELINE ================= -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Cronograma</span>
+      <h2>6 semanas: la tienda primero, la IA sobre lo que ya funciona</h2>
+      <p>El agente se monta sobre la tienda ya construida, no en paralelo a ciegas. Las dos últimas semanas trabajan con datos reales de catálogo, stock y agenda.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="week">
+        <div class="week-num"><span class="n">01</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Fundaciones y diseño</h3>
+          <p>Repositorio, arquitectura de datos y sistema visual. Arranca el brief de la animación 3D.</p>
+          <ul class="task-list">
+            <li>GitHub + Vercel + estructura Next.js/TypeScript</li>
+            <li>Modelo de datos: productos, pedidos, stock, citas, sedes</li>
+            <li>Wireframes y definición de la identidad por sede</li>
+            <li>Brief 3D al animador <span class="parallel-tag">Paralelo</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-num"><span class="n">02</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Tienda, catálogo y multi-sede</h3>
+          <p>Experiencia de compra completa y despliegue del portal de cada regional.</p>
+          <ul class="task-list">
+            <li>Home, catálogo por marca, detalle de producto</li>
+            <li>Carrito y checkout</li>
+            <li>Portal Pereira y portal Armenia (2 cuentas Vercel + 2 bases)</li>
+            <li>Primer render 3D para revisión <span class="parallel-tag">Paralelo</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-num"><span class="n">03</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Pagos, WhatsApp y dashboard</h3>
+          <p>Integración de la pasarela con webhook, notificaciones y panel de administración.</p>
+          <ul class="task-list">
+            <li>API REST de pasarela (ej. Bold): intent + webhook</li>
+            <li>API WhatsApp para notificaciones de pedido y cita</li>
+            <li>Dashboard a medida: ventas, stock y citas</li>
+            <li>Ajustes del clip 3D <span class="parallel-tag">Paralelo</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-num"><span class="n">04</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Base cerrada y datos listos para la IA</h3>
+          <p>Se cierra la tienda y se prepara todo lo que el agente necesita: catálogo indexado, stock por sede y agenda real.</p>
+          <ul class="task-list">
+            <li>Calendario interactivo de servicio mecánico</li>
+            <li>Indexación del catálogo en pgvector (Neon)</li>
+            <li>Endpoints internos para stock, precio y agenda</li>
+            <li>Pruebas E2E de la tienda</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-num"><span class="n">05</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Agente de IA</h3>
+          <p>Construcción del agente, sus herramientas y la visión artificial sobre el catálogo.</p>
+          <ul class="task-list">
+            <li>Agente con memoria y búsqueda semántica</li>
+            <li>Herramientas: cotizar, agendar, consultar stock</li>
+            <li>Análisis de imágenes con derivación a asesor</li>
+            <li>WhatsApp bidireccional + traspaso humano</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="week">
+        <div class="week-num"><span class="n">06</span><span class="l">Semana</span></div>
+        <div class="week-body">
+          <h3>Calidad y entrega</h3>
+          <p>El agente se prueba con conversaciones reales y se ajusta hasta que no invente datos.</p>
+          <ul class="task-list">
+            <li>Set de pruebas con 80–100 conversaciones reales</li>
+            <li>Guardrails y pruebas de regresión</li>
+            <li>Panel de conversaciones y reporte de leads</li>
+            <li>Despliegue en las dos sedes y capacitación al equipo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COSTOS MENSUALES ================= -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Costo de operación</span>
+      <h2>Lo que cuesta tener el agente encendido</h2>
+      <p>El agente consume tokens y mensajes, no horas de una persona. Estos son los valores reales de operación para el volumen esperado de la tienda, más la mensualidad que incluye el mantenimiento.</p>
+    </div>
+
+    <div class="cost-table-wrap">
+      <table class="cost-table">
+        <thead>
+          <tr><th>Concepto</th><th>Consumo estimado</th><th>Costo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Conversaciones con el agente</td><td>Hasta 8.000 / mes</td><td>Incluido en la mensualidad</td></tr>
+          <tr><td>Análisis de imágenes</td><td>300 / mes</td><td>Incluido en la mensualidad</td></tr>
+          <tr><td>Mensajes de WhatsApp (Meta directo)</td><td>≈ 12.000 / mes</td><td>$60.000 – $85.000 · a Meta</td></tr>
+          <tr><td>Base de datos + pgvector (Neon)</td><td>1 por sede</td><td>$20.000 – $60.000 · a Neon</td></tr>
+          <tr><td>Vercel Pro</td><td>1 cuenta por sede</td><td>$66.300 · a Vercel</td></tr>
+          <tr class="sum"><td>Mantenimiento Full + tokens del agente</td><td>Tope 8.000 conversaciones</td><td>$550.000 / mes</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cost-note">
+      <strong>El tope:</strong> los $550.000/mes cubren el mantenimiento del Plan Full (monitoreo, parches, fixes y 2 horas de trabajo al mes) <strong style="color:#c4b5fd">más</strong> los tokens del agente y el análisis de imágenes hasta 8.000 conversaciones y 300 imágenes. Los mensajes de WhatsApp, Vercel y Neon los pagas directo a cada proveedor. Por encima del tope se factura el consumo real, que ronda $120 por conversación adicional.
+    </div>
+  </div>
+</section>
+
+<!-- ================= MUESTRAS DEL PLAN ================= -->
+<section id="muestras">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag">Muestras del plan</span>
+      <h2>Proyectos reales con este nivel de acabado</h2>
+      <p>Tres trabajos desplegados que sirven de referencia directa para la base del Plan Agéntico: el propio agente de IA funcionando, una propuesta sectorial y una presentación de producto premium.</p>
+    </div>
+
+    <div class="samples-grid">
+      <a class="sample-card is-live" href="https://shoyosb-maker.github.io/chatbot-agentico-/" target="_blank" rel="noopener">
+        <div class="sample-icon">🤖</div>
+        <div class="sample-cat">Demo en vivo · IA <span class="sample-live">Funcionando</span></div>
+        <h3>Chatbot Agéntico · Motos</h3>
+        <p>Agente desplegado y operativo: responde con el manual técnico cargado, cotiza repuestos del catálogo real, arma el detalle con subtotales y cierra la venta por WhatsApp. Es exactamente el comportamiento que se construye para tus dos sedes.</p>
+        <span class="sample-more">Probar el chatbot →</span>
+      </a>
+      <a class="sample-card" href="https://shoyosb-maker.github.io/propuesta-personalizaci-n-motos/" target="_blank" rel="noopener">
+        <div class="sample-icon">🏍️</div>
+        <div class="sample-cat">Propuesta · Motos</div>
+        <h3>Propuesta Personalización Motos</h3>
+        <p>Propuesta visual para negocio de motos y personalización. Misma dirección de arte y narrativa de marca que se busca en esta experiencia.</p>
+        <span class="sample-more">Ver proyecto →</span>
+      </a>
+      <a class="sample-card" href="https://shoyosb-maker.github.io/luxegripcattlebrand/" target="_blank" rel="noopener">
+        <div class="sample-icon">✨</div>
+        <div class="sample-cat">Marca / producto</div>
+        <h3>LuxeGrip Cattle Brand</h3>
+        <p>Sitio de marca con estética premium, enfocado en producto y presentación visual de alta gama: el tipo de acabado que acompaña la animación 3D.</p>
+        <span class="sample-more">Ver proyecto →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section>
+  <div class="cta-section">
+    <h2>¿Arrancamos con el plan completo?</h2>
+    <p>Escríbeme y te envío la cotización formal del Plan Agéntico con el detalle de las sedes que necesites, el cronograma de 6 semanas y las condiciones del retainer de $550.000/mes.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/573177366474?text=Hola%2C%20me%20interesa%20el%20Plan%20Ag%C3%A9ntico%20desde%20%248.425.000%20con%20el%20descuento%20piloto" target="_blank" class="btn-gold">
+        💬 Hablar por WhatsApp
+      </a>
+      <a href="https://shoyosb-maker.github.io/chatbot-agentico-/" target="_blank" rel="noopener" class="btn-ghost">
+        🤖 Probar el chatbot
+      </a>
+      <a href="mailto:shoyosb@gmail.com?subject=Inter%C3%A9s%20Plan%20Ag%C3%A9ntico" class="btn-ghost">
+        ✉️ Enviar correo
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Plan Agéntico</strong> · E-commerce Transaccional + Agente de IA · Next.js + Vercel + Neon + pasarela de pagos</p>
+    <p style="margin-top:8px;font-size:.78rem">Vigencia 30 días · Precios en COP</p>
+  </div>
+</footer>
+
+<script src="../js/plan-agentico.js"></script>
+
+</body>
+</html>
